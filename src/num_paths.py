@@ -19,3 +19,6 @@ if (NUM_PATHS == 9):
 
 if (NUM_PATHS == 10):
     print("condition met")
+
+if (NUM_PATHS == 11):
+    print("condition met")
