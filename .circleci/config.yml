@@ -8,7 +8,7 @@ jobs:
       - checkout # check out the code in the project directory
       - run: echo "hello world of code coverage"
       - run: pip install coverage pytest pytest-cov
-      - run: coverage run test_num_paths.py
+      - run: coverage run src/test_num_paths.py
       - run: coverage report
       - run: coverage html
       - run: coverage xml
