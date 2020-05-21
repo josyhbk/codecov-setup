@@ -13,3 +13,6 @@ print(NUM_PATHS)
 # Uncomment to create drift in coverage
 if (NUM_PATHS == 8):
     print("condition met")
+
+if (NUM_PATHS == 9):
+    print("condition met")
