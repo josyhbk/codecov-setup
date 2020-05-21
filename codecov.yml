@@ -1,10 +1,8 @@
 codecov:
   token: $CODECOV_TOKEN
-  branch: master
   ci:
     - "circleci"
   max_report_age: 24
-  disable_default_path_fixes: no
   require_ci_to_pass: yes
   notify:
     after_n_builds: 1
@@ -15,4 +13,4 @@ codecov:
       tests:
         target: auto
         threshold: 100%
-        paths: "src/"
+        paths: "*/"
