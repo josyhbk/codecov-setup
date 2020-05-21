@@ -11,5 +11,5 @@ NUM_PATHS = find_num_paths(STARTX, STARTY)
 print(NUM_PATHS)
 
 # Uncomment to create drift in coverage
-# if (NUM_PATHS == 8):
-#     print("condition met")
+if (NUM_PATHS == 8):
+    print("condition met")
