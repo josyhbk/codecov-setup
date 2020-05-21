@@ -3,17 +3,16 @@ codecov:
   branch: master
   ci:
     - "circleci"
-  strict_yaml_branch: "master"
   max_report_age: 24
   disable_default_path_fixes: no
   require_ci_to_pass: yes
   notify:
-    after_n_builds: 2
+    after_n_builds: 1
     wait_for_ci: no
   status:
     project:
-      default: true  # disable the default status that measures entire project
-      tests:  # declare a new status context "tests"
-        target: auto  # we always want 100% coverage here
+      default: true
+      tests:
+        target: auto
         threshold: 100%
-        paths: "."
+        paths: "src/"
